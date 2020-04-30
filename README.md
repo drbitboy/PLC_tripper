@@ -38,7 +38,7 @@ Discrete Inputs:
     INP_NAME(B) 0--->   -----+    +------
          
     Where:
-      INP_NAME is the name of the input; see below for
+      INP_NAME is the name of the input
       (B) the bit value contributed to the integer when this bit is 1
       0 represents the signal for the PLC to detect a 0
       1 represents the signal for the PLC to detect a 1
