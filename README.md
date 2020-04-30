@@ -47,9 +47,9 @@ sum of
 * two scan times (say 10ms) of conveyor movement
 * enough distance to stop the cart and maintain the same input values
 
-N.B. Odd parity is either 0 or one to ensure that the number of 1 bits
-is odd when counting INP_TWO_BIT, INP_ONE_BIT, and INP_PARITY_BIT, and
-excluding INPUT_AT_STATION_BIT.
+N.B. Odd parity bit is either 0 or 1 to ensure that the total number of
+1 bits is odd when counting the bits INP_TWO_BIT, INP_ONE_BIT, and the
+INP_PARITY_BIT itself; this excludes INPUT_AT_STATION_BIT.
 
 N.B. There are eight possible values for the three bits (two, one,
 parity); four are shown above; the other four values are parity errors,
