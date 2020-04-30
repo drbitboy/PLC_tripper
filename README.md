@@ -54,3 +54,10 @@ INP_PARITY_BIT itself; this excludes INPUT_AT_STATION_BIT.
 N.B. There are eight possible values for the three bits (two, one,
 parity); four are shown above; the other four values are parity errors,
 but will only be detected as such when the at-station bit is 1.
+
+N.B. In order to use the MVM instruction, the current code assumes those
+four input bits are
+* INP_AT_STATION_BIT => I:0.0
+* INP_PARITY_BIT => I:0.1
+* INP_ONE_BIT => I:0.2
+* INP_TWO_BIT => I:0.3
